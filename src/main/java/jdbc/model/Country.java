@@ -20,6 +20,10 @@ public class Country {
 	
 	@Column(name = "CODE_NAME")
 	private String codeName;
+	
+	public Country() {
+		
+	}
 
 	public Country(String name, String codeName) {
 		super();
